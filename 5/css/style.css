@@ -1,0 +1,625 @@
+.additional-products {
+  width: 320px;
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  .additional-products {
+    width: 768px;
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .additional-products {
+    width: 1440px;
+    padding: 0 110px;
+  }
+}
+.additional-products__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+.additional-products__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 1440px) {
+  .additional-products__list {
+    width: 896px;
+  }
+}
+@media (min-width: 1440px) {
+  .additional-products__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.additional-products__name {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #222222;
+}
+.additional-products__description {
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+}
+.calculation-slider {
+  background-color: #ffffff;
+}
+.copyright__title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: inherit;
+  line-height: 19px;
+  color: #444444;
+}
+.diet-advertisement {
+  background: linear-gradient(180deg, rgba(104, 183, 56, 0.85) 302px, #ffffff 302px);
+  background-image: linear-gradient(180deg, rgba(104, 183, 56, 0.95) 302px, rgba(255, 255, 255, 0.9) 302px), url("../../img/diet-background.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  .diet-advertisement {
+    background-color: #ffffff;
+    background-image: none;
+  }
+}
+.diet-advertisement__wrapper {
+  padding: 0 20px;
+  width: 320px;
+}
+@media (min-width: 768px) {
+  .diet-advertisement__wrapper {
+    width: 768px;
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .diet-advertisement__wrapper {
+    width: 1440px;
+    padding: 0 110px;
+  }
+}
+.diet-advertisement__title {
+  text-align: center;
+  color: #ffffff;
+}
+.diet-advertisement__description {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.diet-advertisement__link {
+  text-decoration: none;
+}
+.diet-form__label {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.diet-form__input[type] {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+}
+.diet-form__wrapper {
+  display: grid;
+  gap: 12px;
+}
+@media (min-width: 1440px) {
+  .diet-form__wrapper--basic,
+  .diet-form__wrapper--contacts {
+    grid-template-columns: repeat(2, 568px);
+    gap: 80px;
+  }
+}
+@media (min-width: 768px) {
+  .diet-form__wrapper--additional {
+    grid-template-columns: repeat(2, 224px);
+    gap: 32px 123px;
+  }
+}
+@media (min-width: 1440px) {
+  .diet-form__wrapper--additional {
+    grid-template-columns: repeat(4, 221px);
+    gap: 104px;
+  }
+}
+.diet-form__textarea {
+  width: 280px;
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .diet-form__textarea {
+    width: 708px;
+  }
+}
+@media (min-width: 1440px) {
+  .diet-form__textarea {
+    width: 1200px;
+  }
+}
+.diet-form__textarea::placeholder {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+}
+.diet-form__group {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.diet-form__legend {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+}
+.diet-form__reference-text {
+  line-height: 16px;
+}
+.diet-instruction {
+  width: 320px;
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  .diet-instruction {
+    width: 768px;
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .diet-instruction {
+    width: 1440px;
+    padding: 0 110px;
+  }
+}
+.diet-instruction__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  .diet-instruction__list {
+    grid-template-columns: repeat(2, 243px);
+    gap: 37px 145px;
+  }
+}
+@media (min-width: 1440px) {
+  .diet-instruction__list {
+    grid-template-columns: repeat(4, 243px);
+    gap: 62px;
+  }
+}
+.diet-instruction-card__text {
+  margin: 0;
+  color: #444444;
+}
+.diet-instruction-card {
+  background-color: #ffffff;
+}
+.diet-selection {
+  width: 320px;
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  .diet-selection {
+    width: 768px;
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .diet-selection {
+    width: 1440px;
+    padding: 0 110px;
+  }
+}
+.diet-selection__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.diet-selection-card {
+  background-color: #f2f2f2;
+  padding: 0 20px;
+}
+.diet-selection-card__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 37px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+}
+.diet-selection-card__descripion {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+  margin: 0;
+}
+.diet-selection-card__link {
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+.display-more__title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+}
+.display-more__description {
+  font-size: 12px;
+  line-height: 16px;
+}
+.footer__socials-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  width: 320px;
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  .footer {
+    width: 768px;
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .footer {
+    width: 1440px;
+    padding: 0 110px;
+  }
+}
+.header__link {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+.header__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  width: 320px;
+  padding: 0 20px;
+  display: flex;
+}
+@media (min-width: 768px) {
+  .header {
+    width: 768px;
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .header {
+    width: 1440px;
+    padding: 0 110px;
+  }
+}
+@media (min-width: 768px) {
+  .header__nav-toggle-button {
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  .header__nav-toggle-button {
+    display: none;
+  }
+}
+.header__nav {
+  display: none;
+}
+@media (min-width: 768px) {
+  .header__nav {
+    display: block;
+  }
+}
+@media (min-width: 1440px) {
+  .header__nav {
+    display: block;
+  }
+}
+.main-catalog {
+  background-color: #ffffff;
+}
+.main-form__wrapper {
+  width: 320px;
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  .main-form__wrapper {
+    width: 768px;
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .main-form__wrapper {
+    width: 1440px;
+    padding: 0 110px;
+  }
+}
+.main-form__description {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.main-index {
+  flex-grow: 1;
+}
+.main-logo {
+  width: 33px;
+  height: 38px;
+}
+.office-location__title {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+@media (min-width: 1440px) {
+  .office-location {
+    position: relative;
+  }
+}
+.office-location__address {
+  line-height: 20px;
+  font-style: normal;
+  color: #222222;
+}
+.office-location__wrapper {
+  width: 320px;
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  .office-location__wrapper {
+    width: 768px;
+    padding: 0 30px;
+  }
+}
+.office-location__image {
+  width: 100%;
+  max-height: 400px;
+}
+.order-gift {
+  width: 280px;
+}
+@media (min-width: 768px) {
+  .order-gift {
+    width: 707px;
+  }
+}
+@media (min-width: 1440px) {
+  .order-gift {
+    width: 245px;
+  }
+}
+.order-gift__wrapper {
+  background-color: #68B738;
+  background-image: linear-gradient(to right, rgba(104, 183, 56, 0.85) 0 100%), url("../../img/diet-gift.jpg");
+  background-size: 279px 289px;
+  background-repeat: no-repeat;
+}
+.order-gift__text {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+}
+.page {
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.page__body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+}
+.page__heading {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.page__centerer {
+  margin: 0 auto;
+}
+.product-card__name {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.product-card__description-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.product-card__description-name,
+.product-card__description-value {
+  font-size: 12px;
+  line-height: 16px;
+}
+.products-catalog {
+  padding: 0 20px;
+  width: 320px;
+}
+@media (min-width: 768px) {
+  .products-catalog {
+    width: 768px;
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .products-catalog {
+    width: 1440px;
+    padding: 0 110px;
+  }
+}
+.products-catalog__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: grid;
+  gap: 25px;
+}
+@media (min-width: 768px) {
+  .products-catalog__list {
+    grid-template-columns: repeat(2, 324px);
+    gap: 60px;
+  }
+}
+@media (min-width: 1440px) {
+  .products-catalog__list {
+    grid-template-columns: repeat(4, 245px);
+    gap: 60px;
+  }
+}
+.progress-calculation {
+  width: 320px;
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  .progress-calculation {
+    width: 768px;
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .progress-calculation {
+    width: 1440px;
+    padding: 0 110px;
+  }
+}
+.progress-calculation__text {
+  color: #444444;
+}
+.progress-calculation__feature {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+.progress-calculation__description {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+.progress-calculation__total {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.text-logo {
+  width: 101px;
+  height: 18px;
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/lato/Lato-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/oswald/oswaldregular.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../fonts/oswald/oswaldmedium.woff2") format("woff2");
+  font-display: swap;
+}
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+.button {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  border: 0;
+}
+.button--primary {
+  color: #ffffff;
+  background-color: #68B738;
+}
+.button--secondary {
+  color: #444444;
+  background-color: #f2f2f2;
+}
+/*# sourceMappingURL=style.css.map */
