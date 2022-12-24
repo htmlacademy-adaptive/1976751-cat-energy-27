@@ -724,7 +724,7 @@
 .diet-form__group--padding-top-none {
   padding-top: 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
   .diet-form__group--vertical-padding-none {
     padding-top: 0;
     padding-bottom: 0;
